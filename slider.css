@@ -1,0 +1,107 @@
+@charset "utf-8";
+/* CSS Document */
+
+/*CSS for LIS490JG4 Slider */
+
+	div.slider {
+	padding-bottom: 50px;
+	}
+
+	div.surveyquestion {
+		width: 700px;
+		height: 40px;
+		font-size: 20px;
+	}
+	
+	div.sliderrow {
+		position: absolute;
+		z-index:top;
+		height: 80px;
+		background-image: url(slider1.png);
+		background-position: center;		
+		}
+		
+	div.sliderrow:hover  {
+		background-image: url(slider2.png);
+		background-position: center;
+	}  
+
+
+	div.sliderrow div.thumb {
+		margin-top: 20px;
+		position: relative;
+		height: 45px;
+		width: 16px;
+		background-image: url(tab1.png);
+		background-position: center;	
+	}  
+
+
+	div.sliderrow div.thumb:hover  {
+		background-image: url(tab2.png);
+	}  
+
+ 
+	td.question {
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+	border-right-style:solid;
+	border-right-width:thick;
+	border-right-color:#000000;
+	background:#FFFFFF;
+	background-repeat:no-repeat;
+	width: 200px;
+	text-align: center;
+	}
+	
+	td.questionfirst {
+	border-right-style:solid;
+	border-right-width:thick;
+	border-right-color:#000000;
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+	border-top-style:solid;
+	border-top-width:thin;	
+	border-top-color: #828282;
+	background:#FFFFFF;
+	background-repeat:no-repeat;
+	width: 200px;
+	text-align: center;
+	}
+		
+	td.col {
+	border-bottom-style:solid;
+	border-bottom-width:thin;
+	border-right-style:solid;
+	border-right-width:thin;
+	border-bottom-color: #828282;
+	border-right-color: #E5E5E5;
+	height: 80px;
+	width: 50px;
+	}
+	
+	td.empty {
+	width:200px;
+	}
+	
+	table.intervals td.interval {
+	width:50px;
+	
+	}
+	
+	td.interval span {
+	display:block;
+	position: relative;
+	text-align: left;
+	
+	}
+	
+	th.label {
+	text-align: justify;
+	font-size: 16px;
+	padding-right: 1px;
+	}
+	
+	table.intervals{
+	width: 800px;
+	}
